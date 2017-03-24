@@ -9,6 +9,10 @@ This is a containerized installation of Atlassian JIRA Software with Docker, and
 * [Atlassian JIRA Service Desk](https://cptactionhank.github.io/docker-atlassian-jira-service-desk)
 * [Atlassian Confluence](https://cptactionhank.github.io/docker-atlassian-confluence)
 
+```
+sudo chown -Rf 1:1 /somedir
+```
+
 If you want to help out, you can check out the contribution section further down.
 
 ## I'm in the fast lane! Get me started
