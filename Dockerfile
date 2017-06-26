@@ -11,7 +11,6 @@ RUN set -x \
     && apt-get update --quiet \
     && apt-get install --quiet --yes --no-install-recommends xmlstarlet \
     && apt-get install --quiet --yes --no-install-recommends -t jessie-backports libtcnative-1 \
-    && apt-get install --quiet --yes --no-install-recommends docker \
     && apt-get clean \
     && mkdir -p                "${JIRA_HOME}" \
     && mkdir -p                "${JIRA_HOME}/caches/indexes" \
